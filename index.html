@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute of Science and Technology | IOSAT</title>
+
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header-section">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./Images/Logo.png" alt="Logo IOSAT" class="w-100">
+                    </a>
+                </div>
+                <div class="login-section">
+                    <a href="" class="px-2 sign-up">
+                        <span class="p-0">Sign Up</span>
+                    </a>
+                    <a href="" class="px-2 log-in">
+                        <span class="p-0">Log In</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg pt-4">
+        <div class="container">
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- nav links -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
+                <ul class="navbar-nav text-uppercase gap-3 d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Focus Areas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main content -->
+    <main class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left content -->
+                <div class="col-lg-5 col-12 mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="2000">
+                    <h1 class="heading text-uppercase mb-2">Institute of Science and Technology (IOSAT)</h1>
+                    <p class="sub-heading">Advancing Science, Education & Health
+                        Through Innovation</p>
+                    <a href="" class="btn">Explore More</a>
+                </div>
+                <!-- Right image -->
+                <div class="offset-lg-1 col-lg-6 col-12" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="banner-img">
+                        <img src="./Images/globe-illustration.png" alt="Globe Illustration Image" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- About US -->
+    <section class="about py-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                        <div class="about-img">
+                            <img src="./Images/Team-illustration.png" alt="About team" class="w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 ps-5 ps-lg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                        <h2 class="pb-2 about-heading">About IOSAT</h2>
+                        <p class="py-2 about-desc">Institute of Science and Technology (IOSAT) is a leading
+                            multiplacriptinary organization focused on sciensing research, education, and health through
+                            innovation research respecity-building, and technology development (rioed clavial expert).
+                        </p>
+                        <a href="" class="btn">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Objectives -->
+    <section class="core py-5">
+        <div class="container">
+            <h2 class="pb-4 core-heading text-center">Core Objectives</h2>
+
+            <!-- First Row -->
+            <div class="row justify-content-center g-4 pe-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3 mx-3 mb-4">
+                    <div class="card d-flex flex-column align-items-stretch">
+                        <div class="card-body d-flex flex-column align-items-center px-3">
+                            <div class="icon">
+                                <i class="bi bi-arrow-down-square-fill"></i>
+                            </div>
+                            <div class="py-4 d-flex flex-column align-items-center">
+                                <h5 class="text-center">Innovative Research</h5>
+                                <p class="card-text text-center">Conduct cutting-edge research across various scientific
+                                    fields to create solutions that address contemporary global issues.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3 mx-3 mb-4">
+                    <div class="card d-flex flex-column align-items-stretch">
+                        <div class="card-body d-flex flex-column align-items-center px-3">
+                            <div class="icon">
+                                <i class="bi bi-arrow-up-right-square-fill"></i>
+                            </div>
+                            <div class="py-4 d-flex flex-column align-items-center">
+                                <h5 class="text-center">Capacity Building</h5>
+                                <p class="card-text text-center">Enhance the skills and knowledge
+                                    of individuals and institutions through tailored training
+                                    programs and workshops.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3 mx-3 mb-4">
+                    <div class="card d-flex flex-column align-items-stretch">
+                        <div class="card-body d-flex flex-column align-items-center px-3">
+                            <div class="icon">
+                                <i class="bi bi-motherboard"></i>
+                            </div>
+                            <div class="py-4 d-flex flex-column align-items-center">
+                                <h5 class="text-center">Technology Development</h5>
+                                <p class="card-text text-center">Leverage technology to
+                                    develop practical applications that improve health
+                                    outcomes and educational methodologies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row -->
+            <div class="row justify-content-center g-4 ps-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3 mx-3 mb-4">
+                    <div class="card d-flex flex-column align-items-center">
+                        <div class="card-body d-flex flex-column align-items-center px-3">
+                            <div class="icon">
+                                <i class="bi bi-gear"></i>
+                            </div>
+                            <div class="py-4 d-flex flex-column align-items-center">
+                                <h5 class="text-center">Knowledge Dissemination</h5>
+                                <p class="card-text text-center">Share research findings,
+                                    best practices, and innovations to empower
+                                    communities and stakeholders.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 px-3 mx-3 mb-4">
+                    <div class="card d-flex flex-column align-items-center">
+                        <div class="card-body d-flex flex-column align-items-center px-3">
+                            <div class="icon">
+                                <i class="bi bi-people-fill"></i>
+                            </div>
+                            <div class="py-4 d-flex flex-column align-items-center">
+                                <h5 class="text-center">Collaborative Partnership</h5>
+                                <p class="card-text text-center">Foster strategic
+                                    collaborations with academic institutions, government
+                                    bodies, and industry leaders to maximize our impact.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services -->
+    <section class="service py-5">
+        <div class="container">
+            <h2 class="pb-2 service-heading text-center">Our Services</h2>
+            <div class="row">
+                <!-- Advantages points -->
+                <div class="d-flex flex-wrap">
+                    <div class="row services">
+                        <div class="col-lg-4 adv-point ps-3 pb-0 mb-4 pe-3">
+                            <p class="m-0">Health Sector Initiatives</p>
+                        </div>
+                        <div class="col-lg-4 adv-point ps-3 pb-0 mb-4">
+                            <p class="m-0">Research Support and Collaboration</p>
+                        </div>
+                        <div class="col-lg-4 adv-point ps-3 pb-0 mb-4">
+                            <p class="m-0">Scientific Publications and Journals</p>
+                        </div>
+                        <div class="col-lg-4 adv-point ps-3 pb-0 mb-4">
+                            <p class="m-0">Capacity-Building Training Programs</p>
+                        </div>
+                        <div class="col-lg-4 adv-point ps-3 pb-0 mb-4">
+                            <p class="m-0">Software Application Development
+                            </p>
+                        </div>
+                        <div class="col-lg-4 adv-point ps-3 pb-0 mb-4">
+                            <p class="m-0">Seminars, Workshops, and Conferences
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row footer-main py-5">
+                <!-- Address -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-title">Contact</h5>
+                    <ul class="footer-contact p-0">
+                        <li><i class="bi bi-geo-alt-fill"></i> New Baneshwor-31, Kathmandu, Nepal</li>
+                        <li><i class="bi bi-telephone"></i> 9851079343</li>
+                        <li><i class="bi bi-envelope"></i> info@iosat.org</li>
+                    </ul>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links p-0">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Focus Areas</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social & Logo -->
+                <div class="col-lg-4 col-md-12 text-lg-end text-center mb-4">
+                    <img src="./Images/Logo.png" alt="IOSAT Logo" class="footer-logo mb-2" style="max-width: 130px;">
+                    <div class="social-icons mt-3">
+                        <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="me-2"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
+                <p class="mb-0 text-center text-md-start">© 2025 IOSAT. All rights reserved.</p>
+                <div class="footer-legal-links d-flex gap-4 justify-content-center justify-content-md-end mt-2 mt-md-0">
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <!-- Back to Top Button -->
+        <button id="backToTopBtn" title="Back to Top"><i class="bi bi-arrow-up"></i></button>
+    </footer>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/edb7c66d7f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
